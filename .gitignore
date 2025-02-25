@@ -1,0 +1,71 @@
+# Node.js
+/node_modules/
+
+# Build directories
+/dist/
+/build/
+/out/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Common specific (if there's any build output here)
+/common/dist/
+/common/build/
+
+# React Native (Mobile) specific
+mobile/android/.gradle/
+/mobile/android/app/build/
+/mobile/ios/Pods/
+/mobile/ios/build/
+/mobile/ios/.tmp/
+/mobile/ios/Flutter/Flutter.framework
+mobile/ios/Podfile.lock
+
+# React Native specific
+mobile/.react-native/
+/mobile/.metro/
+/mobile/.npm/
+mobile/android/app/src/main/res/drawable/webpack-asset.js
+
+# Expo specific (only if using Expo in the future for the Mobile app)
+#mobile/.expo/
+/mobile/.expo-shared/
+
+# Vite or Webpack (Web) build files
+web/.vite/
+/web/node_modules/
+/web/.cache/
+/web/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Jest testing
+coverage/
+*.lcov
+
+# Debug log files
+debug.log*
+
+# Miscellaneous
+*.pem
+*.p12
+*.key
