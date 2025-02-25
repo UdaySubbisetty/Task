@@ -1,12 +1,12 @@
 # Infinite Scroll App - React Native & Web
 
-This project demonstrates a high-performance **infinite scrolling list** that fetches data dynamically from an API, using **React Hooks**, **Redux**, **memoization**, and **virtualization**. It includes a **React Native CLI** mobile app and a **React Web** app built with **Vite** (or **Next.js**) as the framework.
+This project demonstrates a high-performance **infinite scrolling list** that fetches data dynamically from an API, using **React Hooks**, **Redux**, **memoization**, and **virtualization**. It includes a **React Native CLI** mobile app and a **React Web** app built with **Vite** as the framework.
 
 ## Project Structure
 
 This project consists of three main folders:
 
-1. **common**: Contains shared business logic, hooks, and Redux actions/reducers for both the mobile and web apps.
+1. **common**: Contains shared business logic and hooks for both the mobile and web apps.
 2. **mobile**: A React Native app built with **React Native CLI**, designed to run on mobile devices.
 3. **web**: A React app built using **Vite** for the web.
 
@@ -16,7 +16,6 @@ Each app (mobile and web) imports and utilizes shared logic from the `common` fo
 
 - **Infinite Scrolling**: Uses virtualization to render a large list of items fetched dynamically from an API (via **jsonplaceholder**).
 - **React Hooks**: State management, API calls, and memoization are done using React hooks.
-- **Redux**: Global state management for handling app data like fetching lists and managing scroll positions.
 - **Cross-Platform**: Code is shared between mobile (React Native CLI) and web, with platform-specific logic and components.
 
 ## Technologies Used
